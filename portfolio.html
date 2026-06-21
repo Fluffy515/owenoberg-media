@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Owen Oberg Media</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">OO Media</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a class="nav-button" href="contact.html">Get a Quote</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-hero">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Fishing, outdoor, and event photography.</h1>
+      <p>Replace the placeholders below with your strongest tournament and outdoor shots.</p>
+    </section>
+
+    <section class="section">
+      <div class="filter-row">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="tournament">Tournaments</button>
+        <button class="filter" data-filter="angler">Anglers</button>
+        <button class="filter" data-filter="outdoor">Outdoor</button>
+      </div>
+
+      <div class="gallery-grid portfolio-gallery">
+        <div class="photo-placeholder" data-category="tournament">Tournament Takeoff</div>
+        <div class="photo-placeholder" data-category="tournament">Weigh-In</div>
+        <div class="photo-placeholder" data-category="angler">Angler Portrait</div>
+        <div class="photo-placeholder" data-category="angler">Big Fish</div>
+        <div class="photo-placeholder" data-category="outdoor">Sunrise</div>
+        <div class="photo-placeholder" data-category="outdoor">Lake Detail</div>
+        <div class="photo-placeholder" data-category="tournament">Awards</div>
+        <div class="photo-placeholder" data-category="angler">Boat Run</div>
+        <div class="photo-placeholder" data-category="outdoor">Wildlife</div>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Owen Oberg Media.</p></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
